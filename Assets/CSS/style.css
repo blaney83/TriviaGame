@@ -1,0 +1,84 @@
+
+html {
+    background-image: url(../images/hogwarts_good.jpg);
+    background-size: cover;
+}
+
+body{
+    font-family: 'Cherry Swash', sans-serif;
+}
+
+.card-title {
+    font-family: 'Arapey', sans-serif;
+    font-size: 2rem;
+}
+
+nav {
+    background-color: rgba(128, 128, 128, 0);
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.14), 0 0px 0px 0px rgba(0,0,0,0.12), 0 0px 0px 0 rgba(0,0,0,0.2)
+}
+
+.nav-wrapper {
+    margin-left: .5rem;
+}
+
+.cardCont {
+    margin-top: 4rem;
+}
+
+.cardCol {
+    height: 70vh;
+}
+
+.blue-grey.darken-1 {
+    background-color: rgba(50, 87, 77, 0.801) !important;
+}
+
+.card .card-action {
+    background-color: rgba(128, 128, 128, 0);
+    border-top: 0px;
+}
+
+.cardBack {
+    border-radius: 15px;
+}
+
+.card .card-action:last-child {
+    border-radius: 0 0 20px 20px;
+}
+
+[type="checkbox"]+span:not(.lever):before, [type="checkbox"]:not(.filled-in)+span:not(.lever):after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    z-index: 0;
+    border: 3px solid #5A5AB9;
+    border-radius: 1px;
+    margin-top: 3px;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+
+.questionBody {
+    display: none;
+}
+
+.resetButton {
+    display: none;
+}
+
+.breadcrumb {
+    display: visible;
+    /* going to have to add a span containing start breadcrumb then append add each one each time. */
+}
+
+@media only screen and (max-width: 600px) {
+
+    .cardCont {
+        margin-top: 7rem;
+    }
+
+}
