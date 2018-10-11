@@ -72,7 +72,7 @@ nav {
 
 .breadcrumb {
     display: visible;
-    /* going to have to add a span containing start breadcrumb then append add each one each time. */
+    /* going to have to add a span containing start breadcrumb then append add each one each time.*/
 }
 
 @media only screen and (max-width: 600px) {
