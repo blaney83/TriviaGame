@@ -15,8 +15,11 @@ body{
 }
 
 nav {
+    margin-top: .4rem;
     background-color: rgba(128, 128, 128, 0);
-    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.14), 0 0px 0px 0px rgba(0,0,0,0.12), 0 0px 0px 0 rgba(0,0,0,0.2)
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.14), 0 0px 0px 0px rgba(0,0,0,0.12), 0 0px 0px 0 rgba(0,0,0,0.2);
+    line-height: 26px;
+    height: 18px;
 }
 
 .nav-wrapper {
@@ -100,9 +103,13 @@ nav {
     margin: 0px;
 }
 
+.toast {
+    background-color: rgba(78, 78, 78, 0.835);
+}
+
 .breadcrumb {
     opacity: 0;
-    font-size: 1rem;
+    font-size: 1.5rem;
     /* going to have to add a span containing start breadcrumb then append add each one each time.*/
 }
 
