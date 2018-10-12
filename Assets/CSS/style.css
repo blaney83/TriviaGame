@@ -6,6 +6,7 @@ html {
 
 body{
     font-family: 'Cherry Swash', sans-serif;
+    height: 100vh;
 }
 
 .card-title {
@@ -23,7 +24,7 @@ nav {
 }
 
 .cardCont {
-    margin-top: 4rem;
+    margin-bottom: 10vh;
 }
 
 .cardCol {
@@ -37,6 +38,8 @@ nav {
 .card .card-action {
     background-color: rgba(128, 128, 128, 0);
     border-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .cardBack {
@@ -55,7 +58,7 @@ nav {
     width: 18px;
     height: 18px;
     z-index: 0;
-    border: 3px solid #5A5AB9;
+    border: 3px solid rgb(71, 134, 108);
     border-radius: 1px;
     margin-top: 3px;
     -webkit-transition: .2s;
@@ -66,19 +69,47 @@ nav {
     display: none;
 }
 
-.resetButton {
-    display: none;
+.timer{
+    color: rgb(159, 255, 159);
+    font-size: 2rem;
+}
+
+.p{
+    margin: 7px 0px;
+}
+
+#scoreArea{
+    color: white;
+    font-size: 1.5rem;
+}
+
+[type="checkbox"]+span:not(.lever) {
+    color: rgb(156, 172, 187);
+    font-size: 1.2rem;
+}
+
+.bottomBox{
+    line-height: 1;
+}
+
+.buttonRow{
+    margin-bottom: 0;
+}
+
+.breadcrumb::before{
+    margin: 0px;
 }
 
 .breadcrumb {
-    display: visible;
+    opacity: 0;
+    font-size: 1rem;
     /* going to have to add a span containing start breadcrumb then append add each one each time.*/
 }
 
 @media only screen and (max-width: 600px) {
 
     .cardCont {
-        margin-top: 7rem;
+        margin-top: 2.5rem;
     }
 
 }
