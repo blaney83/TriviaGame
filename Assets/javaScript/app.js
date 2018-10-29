@@ -54,6 +54,13 @@ var questions = [
         displayMess: "The shape of a corporeal Patronus is significantly influenced by the personality of the caster. Harry's is a stag; Dumbledore's is a phoenix."
     },
 
+    {
+        inquiry: "What page does Snape tell the students to turn to in the 3rd movie?",
+        answers: ["172", "394", "239", "421"],
+        correctAns: 1,
+        displayMess: "Snape tells the students three times to turn to page 394. This is the section of the book on werewolves and is an allussion to Professor Loopin and a hint at Snapes dislike for the Professor."
+    },
+
 ]
 
 var clock = {
